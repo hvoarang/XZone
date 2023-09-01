@@ -1,0 +1,80 @@
+:root {
+    --white: #fff;
+    --font-a: #f9fafb;
+    --font-b: #e5e7eb;
+    --btn-a: #2563eb;
+    --btn-b: #d946ef;
+    --gradient-order-a: #8a7fd9;
+    --gradient-order-b: #402f8f;
+    --gradient-social-a: #d97f95;
+    --gradient-social-b: #923250;
+    --gradient-crypto-a: #84d8ed;
+    --gradient-crypto-b: #4292bb;
+    --gradient-smart-a: #92efc3;
+    --gradient-smart-b: #2f8f5b;
+    --gradient-analyzer-a: #bc7fd9;
+    --gradient-analyzer-b: #923283;
+    --gradient-module-a: #8684ed;
+    --gradient-module-b: #4247bb;
+    --bg-accent: #4247bb;
+}
+
+body {
+    font-family: DM Sans;
+    font-style: normal;
+    background-image: url(/src/images/img/bg.png);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*# sourceMappingURL=variables.css.map */
