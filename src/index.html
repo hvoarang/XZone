@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="./sass/utils/normalize.scss" />
     <link rel="stylesheet" href="./sass/main.scss" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- ❗️❗️❗️ include (подключение) html / scss ❗️❗️❗️ -->
@@ -25,6 +26,10 @@
 
     <link rel="stylesheet" href="./sass/utils/variables.scss" />
     <!-- подключение скриптов -->
-    <script type="module" src="./index.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="./js/main.js" /></script>
   </body>
 </html>
